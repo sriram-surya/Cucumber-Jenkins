@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="183.751901">
+    <testcase classname="To validate the forgotten password page" name="To validate the forgotten password page by giving  invalid phone number or email" time="40.34886">
+        <system-out><![CDATA[When user has to click the forgotten password text..........................passed
+And user has to navigate to forgotten password page.........................passed
+And User has to enter the phone number or Email in the textbox..............passed
+And user has to click the search button.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the Login functionality of Facebook" name="To validate the login page" time="18.681065">
+        <system-out><![CDATA[Given user has to open the Chrome browser and maximize the window...........passed
+When user has to launch the required Url....................................passed
+And user has to enter the value in userbox and passwordbox..................passed
+And user has to click the login.............................................passed
+Then user has navigate to homepage..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the Login functionality of Facebook" name="To validate the Loging functionality with all credentials" time="20.822137">
+        <system-out><![CDATA[Given user has to open the Chrome browser and maximize the window...........passed
+When user has to launch the Url.............................................passed
+And user has to enter the value "java" in username and"java@123" in password.passed
+And user has to click the login button......................................passed
+Then user has navigate to error page........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the Login functionality of Facebook" name="To validate the Loging functionality with all credentials 2" time="12.98961">
+        <system-out><![CDATA[Given user has to open the Chrome browser and maximize the window...........passed
+When user has to launch the Url.............................................passed
+And user has to enter the value "selenium" in username and"Selenium12" in password.passed
+And user has to click the login button......................................passed
+Then user has navigate to error page........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the Login functionality of Facebook" name="To validate the Loging functionality with all credentials 3" time="14.994034">
+        <system-out><![CDATA[Given user has to open the Chrome browser and maximize the window...........passed
+When user has to launch the Url.............................................passed
+And user has to enter the value "python" in username and"python@123" in password.passed
+And user has to click the login button......................................passed
+Then user has navigate to error page........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the Login functionality of Facebook" name="To validate the Loging functionality with all credentials 4" time="14.774159">
+        <system-out><![CDATA[Given user has to open the Chrome browser and maximize the window...........passed
+When user has to launch the Url.............................................passed
+And user has to enter the value "Cucumber" in username and"cucumber123" in password.passed
+And user has to click the login button......................................passed
+Then user has navigate to error page........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the Login functionality of Facebook" name="To validate the Loging functionality with all credentials 5" time="20.255438">
+        <system-out><![CDATA[Given user has to open the Chrome browser and maximize the window...........passed
+When user has to launch the Url.............................................passed
+And user has to enter the value "zxdergf" in username and"1232334" in password.passed
+And user has to click the login button......................................passed
+Then user has navigate to error page........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the Login functionality of Facebook" name="To validate the Loging functionality with all credentials 6" time="19.340815">
+        <system-out><![CDATA[Given user has to open the Chrome browser and maximize the window...........passed
+When user has to launch the Url.............................................passed
+And user has to enter the value "surya" in username and"surya1234" in password.passed
+And user has to click the login button......................................passed
+Then user has navigate to error page........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the new account creation functinality of facebook" name="To validate the Account page by all valid credentials" time="21.545783">
+        <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name='firstname']&quot;}&#10;  (Session info: chrome=114.0.5735.199)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-O95Q88P5', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SURYA~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b83eb245ab36610aaed1b8d18b431449&#10;*** Element info: {Using=name, value=firstname}&#13;&#10;&#9;at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)&#13;&#10;&#9;at org.openqa.selenium.By$ByName.findElement(By.java:284)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at org.step.FbCreatingNewAccount.userHasToEnterTheFirstnameAndSecondname(FbCreatingNewAccount.java:46)&#13;&#10;&#9;at ✽.user has to enter the Firstname and secondname(src/test/resources/Feature/Practice.feature:7)&#13;&#10;"><![CDATA[Given user has to launch the browser........................................passed
+When user has to launch the Url and click create new account button.........passed
+And user has to navigate to create new account page.........................passed
+And user has to enter the Firstname and secondname..........................failed
+And user has to enter the moblie number or email id.........................skipped
+And user has to click the gender icon.......................................skipped
+And user has to click signup button.........................................skipped
+Then user has to navigate to homepage.......................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='firstname']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-O95Q88P5', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SURYA~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b83eb245ab36610aaed1b8d18b431449
+*** Element info: {Using=name, value=firstname}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.step.FbCreatingNewAccount.userHasToEnterTheFirstnameAndSecondname(FbCreatingNewAccount.java:46)
+	at ✽.user has to enter the Firstname and secondname(src/test/resources/Feature/Practice.feature:7)
+]]></failure>
+    </testcase>
+</testsuite>
